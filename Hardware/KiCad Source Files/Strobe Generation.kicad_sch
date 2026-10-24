@@ -5943,7 +5943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 241.3 104.14 0)
 			(effects
 				(font
@@ -5970,7 +5970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "K224K15X7RF5UH5"
+		(property "Part Number" "K224K20X7RF5UH5"
 			(at 241.3 104.14 0)
 			(effects
 				(font
