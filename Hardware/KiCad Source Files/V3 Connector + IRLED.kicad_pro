@@ -239,7 +239,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1397000|927100|f86ba4ac-660b-4c92-81c0-17b93e13417a|30f60b7b-252e-47ad-af07-410ee35c7da2|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/ccdb7f4b-2227-4b3b-ae8d-d985fe5b737e|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/ccdb7f4b-2227-4b3b-ae8d-d985fe5b737e|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/0bd15bed-199a-4e45-8bce-f6f8039d8937",
+        "MC33063 SwE (open emitter) tied to GND in the boost topology; intended"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -367,7 +372,7 @@
         0,
         2,
         2,
-        0,
+        2,
         2
       ],
       [
@@ -393,7 +398,7 @@
         0,
         1,
         0,
-        0,
+        2,
         0,
         0,
         2

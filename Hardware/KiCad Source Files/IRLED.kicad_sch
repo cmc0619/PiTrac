@@ -22,7 +22,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D1"
+			(property "Reference" "D"
 				(at -0.3174 -3.81 90)
 				(effects
 					(font
@@ -40,7 +40,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Library:SST-10-IRD-B90H-S810"
+			(property "Footprint" "Pi Connector Parts:VSMA1085400"
 				(at 0 0 0)
 				(effects
 					(font

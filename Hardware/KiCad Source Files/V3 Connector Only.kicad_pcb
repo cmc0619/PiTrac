@@ -16529,7 +16529,7 @@
 				)
 			)
 		)
-		(property "Part Number" "MFR-25FTE52-2K49"
+		(property "Part Number" "MFR-25FRF52-10K"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

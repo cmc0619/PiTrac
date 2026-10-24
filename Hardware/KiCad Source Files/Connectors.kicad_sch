@@ -1676,7 +1676,7 @@
 		)
 		(uuid "65e42794-5722-4bc6-abca-aa6129f69ba7")
 	)
-	(text "USB-C 5V @ 5A"
+	(text "USB-C 5V: 3A advertised (CC), 5A max"
 		(exclude_from_sim no)
 		(at 181.356 58.928 0)
 		(effects
@@ -1686,7 +1686,7 @@
 		)
 		(uuid "75fae729-6856-4001-9d89-e2f3d73dc6d5")
 	)
-	(text "USB-C 5V @ 5A"
+	(text "USB-C 5V: 3A advertised (CC), 5A max"
 		(exclude_from_sim no)
 		(at 182.88 129.286 0)
 		(effects

@@ -601,7 +601,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q1"
+			(property "Reference" "Q"
 				(at 6.35 1.2701 0)
 				(effects
 					(font
@@ -6246,14 +6246,7 @@
 			)
 		)
 	)
-	(text "Strobe pulse-width limiter (added).
-C16/R28 AC-couple TRIG into the MCP1407 input (tau = R28 x C16 = 2.2 ms).
-GATE-DRV starts at ~2.85 V (DIAG minus D4) and decays; the MCP1407 turns off on its falling
-threshold (datasheet: VIL typ 1.3 V, guaranteed off below 0.8 V; VIH typ 1.8 V, max 2.4 V).
-Stuck-high DIAG/MOSI: output off after ~1.7 ms typical, <= ~2.8 ms worst case.
-Guaranteed pass time >= ~0.38 ms even if the falling threshold were 2.4 V, so the 8.7-130 us
-strobes and the calibration pulse (DIAG on, then ADC read) are not cut short.
-R28 also holds GATE-DRV low when nothing drives TRIG. Verify the cutoff on a scope."
+	(text "Strobe pulse-width limiter (added).\nC16/R28 AC-couple TRIG into the MCP1407 input (tau = R28 x C16 = 2.2 ms nominal,\n1.66-2.44 ms with R28 1%, C16 +-10% and X7R drift to -15%).\nGATE-DRV starts at ~2.7-2.95 V (Pi GPIO high minus D4) and decays; the MCP1407 turns off on its\nfalling threshold (datasheet: VIL typ 1.3 V, guaranteed off below 0.8 V; VIH typ 1.8 V, max 2.4 V).\nStuck-high DIAG/MOSI: output off after ~1.7 ms typical, <= ~3.2 ms worst case.\nPass time ~1.7 ms typical; >= ~0.2 ms even with every limit at its worst (low start level, low\nC16/R28, falling threshold at 2.4 V), so the 8.7-130 us strobes and the calibration pulse\n(DIAG on, then ADC read) are not cut short.\nR28 also holds GATE-DRV low when nothing drives TRIG. Verify the cutoff on a scope."
 		(exclude_from_sim no)
 		(at 228.6 129.54 0)
 		(effects

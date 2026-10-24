@@ -500,7 +500,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q4"
+			(property "Reference" "Q"
 				(at 5.08 1.2701 0)
 				(effects
 					(font
