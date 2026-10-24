@@ -1239,7 +1239,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LED_ThermalPad"
+	(symbol "VSMA1085400"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1259,7 +1259,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SST-10-IRD-B90H-S810"
+		(property "Value" "VSMA1085400"
 			(at -2.8574 -3.81 90)
 			(effects
 				(font
@@ -1277,7 +1277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5335/SST-10-IRD-BxxH_810_Rev01_2021.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/80294/vsma1085400.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1286,7 +1286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "860 nm high power IR emitter (SurfLight). Pads 2 and 3 are both anode (Vishay doc 80294, package drawing); pad 3 is the wide center pad under the die."
 			(at 0 0 0)
 			(effects
 				(font
@@ -1304,7 +1304,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LED diode"
+		(property "ki_keywords" "IR LED emitter VSMA1085400"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1322,7 +1322,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LED_ThermalPad_0_1"
+		(symbol "VSMA1085400_0_1"
 			(polyline
 				(pts
 					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -1384,11 +1384,11 @@
 				)
 			)
 		)
-		(symbol "LED_ThermalPad_1_0"
+		(symbol "VSMA1085400_1_0"
 			(pin passive line
 				(at 1.27 2.54 270)
 				(length 2.54)
-				(name "P"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1404,7 +1404,7 @@
 				)
 			)
 		)
-		(symbol "LED_ThermalPad_1_1"
+		(symbol "VSMA1085400_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
