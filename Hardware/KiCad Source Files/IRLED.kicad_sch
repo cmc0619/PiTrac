@@ -11,7 +11,7 @@
 		(company "PiTrac")
 	)
 	(lib_symbols
-		(symbol "Device:LED"
+		(symbol "Pi Connector Parts:VSMA1085400"
 			(pin_numbers
 				(hide yes)
 			)
@@ -22,7 +22,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D1"
+			(property "Reference" "D"
 				(at -0.3174 -3.81 90)
 				(effects
 					(font
@@ -31,7 +31,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "SST-10-IRD-B90H-S810"
+			(property "Value" "VSMA1085400"
 				(at -2.8574 -3.81 90)
 				(effects
 					(font
@@ -40,7 +40,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Library:SST-10-IRD-B90H-S810"
+			(property "Footprint" "Pi Connector Parts:VSMA1085400"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5335/SST-10-IRD-BxxH_810_Rev01_2021.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/80294/vsma1085400.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "860 nm high power IR emitter (SurfLight). Pads 2 and 3 are both anode (Vishay doc 80294, package drawing); pad 3 is the wide center pad under the die."
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_keywords" "IR LED emitter VSMA1085400"
 				(at 0 0 0)
 				(effects
 					(font
@@ -94,7 +94,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "VSMA1085400_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -156,11 +156,11 @@
 					)
 				)
 			)
-			(symbol "LED_1_0"
+			(symbol "VSMA1085400_1_0"
 				(pin passive line
 					(at 1.27 2.54 270)
 					(length 2.54)
-					(name "P"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -176,7 +176,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "VSMA1085400_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -600,7 +600,7 @@
 		(uuid "fb43450b-8d05-4dd8-89f6-a4d3c9a44a83")
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 115.57 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -699,7 +699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 156.21 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -944,7 +944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 156.21 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1043,7 +1043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 115.57 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1218,7 +1218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 156.21 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1317,7 +1317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 115.57 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1416,7 +1416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 156.21 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1515,7 +1515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 115.57 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1690,7 +1690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 115.57 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1789,7 +1789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:VSMA1085400")
 		(at 156.21 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1886,5 +1886,205 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 113.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4aaf333-4a06-4ccc-87db-0f22e349b888")
+	)
+	(wire
+		(pts
+			(xy 113.03 116.84) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a4caa9-80cd-4d64-b0f5-32cfc5e4af5e")
+	)
+	(wire
+		(pts
+			(xy 153.67 68.58) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d17fab-2ffd-42f1-92c0-12f473235877")
+	)
+	(wire
+		(pts
+			(xy 153.67 66.04) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c518c9b2-f705-493e-a685-a52332e29fbb")
+	)
+	(wire
+		(pts
+			(xy 153.67 119.38) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9987fc3d-aa7c-4ac7-8927-442838b779ba")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e802b3c-59e5-4208-b4f6-6175460569b5")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 113.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafde393-e745-4683-b5ce-7becf032ef1a")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec98702-5cfa-4717-8436-374860d104f6")
+	)
+	(wire
+		(pts
+			(xy 153.67 106.68) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05416de6-ddbb-4681-840a-a5acb8181452")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef44805-b408-4f47-bcc9-6e2d88f2e391")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27de6841-18c8-45cd-bac6-2a601f88cfee")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2148c668-3620-4476-888a-eb8f3f874453")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0404eca-895b-4fb0-82c5-95c79fce8b24")
+	)
+	(wire
+		(pts
+			(xy 153.67 91.44) (xy 156.21 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958d3e1a-8744-4c9a-950b-f1eb2f98fc7a")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13852911-ebf1-459a-9418-d4a0f1c46ec6")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ec3ec2-d0fe-459a-a123-01019d191612")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d2f07e-bb53-4b6d-ba78-68a0a890b0ae")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0bf404-1f06-4a19-a006-41111e842577")
+	)
+	(wire
+		(pts
+			(xy 153.67 81.28) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890f1e6b-6f4d-4212-a7fc-e117b938920b")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7303de2-96b3-4a94-a15e-9594cad28d91")
 	)
 )

@@ -489,7 +489,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN"
+		(symbol "Pi Connector Parts:Q_NPN_EBC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -500,7 +500,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q4"
+			(property "Reference" "Q"
 				(at 5.08 1.2701 0)
 				(effects
 					(font
@@ -572,7 +572,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NPN_0_1"
+			(symbol "Q_NPN_EBC_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -645,7 +645,7 @@
 					)
 				)
 			)
-			(symbol "Q_NPN_1_1"
+			(symbol "Q_NPN_EBC_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2136,7 +2136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "Pi Connector Parts:Q_NPN_EBC")
 		(at 198.12 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
