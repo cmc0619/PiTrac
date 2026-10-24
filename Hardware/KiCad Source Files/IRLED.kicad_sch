@@ -11,7 +11,7 @@
 		(company "PiTrac")
 	)
 	(lib_symbols
-		(symbol "Device:LED"
+		(symbol "Pi Connector Parts:LED_ThermalPad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -94,7 +94,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED_ThermalPad_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -156,7 +156,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_0"
+			(symbol "LED_ThermalPad_1_0"
 				(pin passive line
 					(at 1.27 2.54 270)
 					(length 2.54)
@@ -176,7 +176,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_ThermalPad_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -600,7 +600,7 @@
 		(uuid "fb43450b-8d05-4dd8-89f6-a4d3c9a44a83")
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 115.57 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -699,7 +699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 156.21 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -944,7 +944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 156.21 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1043,7 +1043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 115.57 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1218,7 +1218,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 156.21 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1317,7 +1317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 115.57 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1416,7 +1416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 156.21 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1515,7 +1515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 115.57 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1690,7 +1690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 115.57 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1789,7 +1789,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Pi Connector Parts:LED_ThermalPad")
 		(at 156.21 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1886,5 +1886,45 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 113.03 119.38)
+		(uuid "dbbf0e59-6ee2-4b8f-b525-7e1a7d28c79c")
+	)
+	(no_connect
+		(at 153.67 68.58)
+		(uuid "1e8cc912-74a7-4b83-ba99-5cf20d656c1b")
+	)
+	(no_connect
+		(at 153.67 119.38)
+		(uuid "e659a1af-107d-469d-b1ff-6448f960a528")
+	)
+	(no_connect
+		(at 113.03 68.58)
+		(uuid "f38008f4-b015-44e7-bc87-317be6942ee0")
+	)
+	(no_connect
+		(at 153.67 106.68)
+		(uuid "7c2a49ea-a3f8-4a76-b6d9-fd48f59699be")
+	)
+	(no_connect
+		(at 113.03 106.68)
+		(uuid "2625690a-15a7-4825-8e23-660da7baf2a0")
+	)
+	(no_connect
+		(at 153.67 93.98)
+		(uuid "3cd92a5e-9b98-41c6-b828-cbbea8904df9")
+	)
+	(no_connect
+		(at 113.03 93.98)
+		(uuid "08349cd0-e2c1-49cd-93fc-95a1a8be4266")
+	)
+	(no_connect
+		(at 113.03 81.28)
+		(uuid "5df3a1f5-ea62-4414-9054-a038e86d613f")
+	)
+	(no_connect
+		(at 153.67 81.28)
+		(uuid "2fac66c0-8c93-4397-ab31-8453bd2cbf68")
 	)
 )

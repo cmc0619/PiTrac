@@ -590,7 +590,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
+		(symbol "Pi Connector Parts:Q_NMOS_SGD"
 			(pin_numbers
 				(hide yes)
 			)
@@ -673,7 +673,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_0_1"
+			(symbol "Q_NMOS_SGD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -840,7 +840,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_1_1"
+			(symbol "Q_NMOS_SGD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1070,7 +1070,7 @@
 				)
 			)
 			(symbol "IRLU024NPBF_0_0"
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -2.54 0)
 					(length 2.54)
 					(name "G"
@@ -1088,7 +1088,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 -1.27 180)
 					(length 2.54)
 					(name "D"
@@ -1106,7 +1106,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 -3.81 180)
 					(length 2.54)
 					(name "S"
@@ -1197,7 +1197,7 @@
 				)
 			)
 			(symbol "MCP1407-E/P_0_0"
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "VDD"
@@ -1215,7 +1215,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -5.08 0)
 					(length 2.54)
 					(name "VDD"
@@ -1233,7 +1233,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -2.54 -10.16 0)
 					(length 2.54)
 					(name "INPUT"
@@ -1251,7 +1251,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -17.78 0)
 					(length 2.54)
 					(name "GND"
@@ -1269,7 +1269,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "NC"
@@ -1287,7 +1287,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -10.16 180)
 					(length 2.54)
 					(name "OUT"
@@ -1305,7 +1305,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -12.7 180)
 					(length 2.54)
 					(name "OUT"
@@ -1323,7 +1323,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 -17.78 180)
 					(length 2.54)
 					(name "GND"
@@ -1863,16 +1863,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 168.91) (xy 71.12 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b78514-3d4a-4c83-a1e1-c2245712fcb5")
-	)
-	(wire
-		(pts
 			(xy 157.48 106.68) (xy 161.29 106.68)
 		)
 		(stroke
@@ -2293,16 +2283,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 114.3) (xy 161.29 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a70392-1535-48dd-a314-f2aa993deaa3")
-	)
-	(wire
-		(pts
 			(xy 138.43 114.3) (xy 138.43 119.38)
 		)
 		(stroke
@@ -2560,16 +2540,6 @@
 			(type default)
 		)
 		(uuid "fb797a0b-f125-4512-b037-82663fffa570")
-	)
-	(label "GATE-DRV"
-		(at 148.59 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29160cf4-0c86-4802-b094-e8955b5a8a95")
 	)
 	(label "GATE-DRV"
 		(at 55.88 168.91 0)
@@ -5254,7 +5224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Pi Connector Parts:Q_NMOS_SGD")
 		(at 83.82 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5891,5 +5861,407 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f053a0-fba7-41e9-bd8d-874fda7fc03d")
+	)
+	(label "TRIG"
+		(at 146.05 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3c3e431-2854-45fc-90a8-6e4f6cc1ec49")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055f308c-c83f-446c-992d-b049e900f7e3")
+	)
+	(label "GATE-DRV"
+		(at 151.13 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "849960ca-12aa-46c8-b130-90db4f0c9b67")
+	)
+	(wire
+		(pts
+			(xy 55.88 168.91) (xy 71.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7367d599-84e7-4ea2-b18e-35db0a12b00d")
+	)
+	(no_connect
+		(at 179.07 106.68)
+		(uuid "8b689c68-9524-4030-b418-60ba2d8c0ce4")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da67d4d3-3980-48e1-9479-ca02f11c0f7b")
+		(property "Reference" "C16"
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "K224K15X7RF5UH5"
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Beyschlag/Draloric/BC Components"
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "50V X7R"
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c05e73a0-2547-4775-b6e2-26d1048a1d7a")
+		)
+		(pin "2"
+			(uuid "49d92e04-7e86-4e40-bf45-ed34132e9623")
+		)
+		(instances
+			(project "V3 Connector + IRLED"
+				(path "/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 241.3 100.33) (xy 241.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c355ef2-0bbf-453b-a48c-dbf2f2379544")
+	)
+	(label "TRIG"
+		(at 241.3 97.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95a13733-10dc-4927-b414-ca7fadc34749")
+	)
+	(wire
+		(pts
+			(xy 241.3 107.95) (xy 241.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2016a6eb-76f4-47e5-bd7c-ce299962baa2")
+	)
+	(label "GATE-DRV"
+		(at 241.3 110.49 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af8b460e-7a5a-469d-b201-66d72af6da68")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1babe859-1bc9-4ac2-a41a-4f194b519f14")
+		(property "Reference" "R28"
+			(at 259.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 259.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MFR-25FRF52-10K"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ratings" "1/4W 1%"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0b61da4-6429-4d7c-ac41-c5614015bda3")
+		)
+		(pin "2"
+			(uuid "981173b9-6bbb-4031-8859-4d2f4be56686")
+		)
+		(instances
+			(project "V3 Connector + IRLED"
+				(path "/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 256.54 113.03) (xy 256.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d275105-f3b5-45b4-af9a-b0b49fe13088")
+	)
+	(label "GATE-DRV"
+		(at 256.54 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "178531ba-e397-4a24-9156-c6ce8d37c739")
+	)
+	(wire
+		(pts
+			(xy 256.54 120.65) (xy 256.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc24dc3-2ad9-43eb-b321-470ad62ba1ff")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "9950e7a3-1369-41ca-8a23-078a475a751c")
+		(property "Reference" "#PWR101"
+			(at 256.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9e5162a-92dd-44a7-a9e2-71b6dc79ac67")
+		)
+		(instances
+			(project "V3 Connector + IRLED"
+				(path "/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607"
+					(reference "#PWR101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Strobe pulse-width limiter (added).
+C16/R28 AC-couple TRIG into the MCP1407 input (tau = R28 x C16 = 2.2 ms).
+GATE-DRV starts at ~2.85 V (DIAG minus D4) and decays; the MCP1407 turns off on its falling
+threshold (datasheet: VIL typ 1.3 V, guaranteed off below 0.8 V; VIH typ 1.8 V, max 2.4 V).
+Stuck-high DIAG/MOSI: output off after ~1.7 ms typical, <= ~2.8 ms worst case.
+Guaranteed pass time >= ~0.38 ms even if the falling threshold were 2.4 V, so the 8.7-130 us
+strobes and the calibration pulse (DIAG on, then ADC read) are not cut short.
+R28 also holds GATE-DRV low when nothing drives TRIG. Verify the cutoff on a scope."
+		(exclude_from_sim no)
+		(at 228.6 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1adceea9-72e1-4590-a2fb-a8303b34cf2a")
 	)
 )
