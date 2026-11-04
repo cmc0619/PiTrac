@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pi Connector Parts-codex")(type "KiCad")(uri "${KIPRJMOD}/Pi Connector Parts-codex.kicad_sym")(options "")(descr "Project-specific symbols"))
+)

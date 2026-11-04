@@ -1,0 +1,16 @@
+R5 indicator resistor only - before and after DC stress
+* Literal passive calculations. D2 uses fixed voltage drop, not an LED model.
+* Vrail_nom follows upstream R3=60.4k, R4=2.2k,1.25V feedback.
+* Worst case assumes38V, zero LED drop and R tolerance/TCR minimum.
+* No boost, optical, temperature, DAC or strobe behavior is simulated.
+Vrail_nom rail_nom 0 35.5681818181818
+Vled_old rail_nom old 2.1
+Vled_new rail_nom new 2.1
+R5_old old 0 2490
+R5_new new 0 6800
+Vrail_upper rail_upper 0 38
+R5_old_upper rail_upper 0 2457.088425
+R5_new_upper rail_upper 0 6710.121
+.op
+.save all
+.end

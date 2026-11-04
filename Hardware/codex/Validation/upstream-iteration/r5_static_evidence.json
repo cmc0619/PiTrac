@@ -1,0 +1,107 @@
+{
+  "scope": "R5-only passive DC stress verification; no DAC change",
+  "baseline_commit": "78f1de60fd21398f34d348f19f55e73029bc95f9",
+  "baseline_Power_kicad_sch_sha256": "2da3310bb42ae9612ce0f0c60f7a437134fe08b78d86821ba10e64bc47785573",
+  "population_correction": {
+    "dnp_flags": {
+      "schematic": {
+        "U4": true,
+        "C13": true,
+        "R11": false
+      },
+      "V3 Connector + IRLED.kicad_pcb": {
+        "U4": true,
+        "C13": true,
+        "R11": false
+      },
+      "V3 Connector Only.kicad_pcb": {
+        "U4": true,
+        "C13": true,
+        "R11": false
+      }
+    },
+    "conclusion": "U4 and C13 are already unpopulated. The earlier DAC clamp finding is retracted."
+  },
+  "selected_change": {
+    "reference": "R5",
+    "before_part": "MFR-25FTE52-2K49",
+    "after_part": "MFR-25FTE52-6K8",
+    "before_ohm": 2490,
+    "after_ohm": 6800,
+    "rating_W_at_70C_or_below": 0.25,
+    "tolerance": 0.01,
+    "TCR_per_K": 5e-05
+  },
+  "nominal_before": {
+    "rail_V": 35.56818181818181,
+    "LED_drop_V": 2.1,
+    "R_ohm": 2490,
+    "current_A": 0.013441036874771812,
+    "resistor_power_W": 0.44984706594974927,
+    "rail_power_W": 0.4780732433867701
+  },
+  "nominal_after": {
+    "rail_V": 35.56818181818181,
+    "LED_drop_V": 2.1,
+    "R_ohm": 6800,
+    "current_A": 0.0049217914438502664,
+    "resistor_power_W": 0.1647234109139523,
+    "rail_power_W": 0.17505917294603787
+  },
+  "nominal_rail_load_reduction_W": 0.30301407044073225,
+  "nominal_resistor_power_reduction_percent": 63.382352941176464,
+  "corner_assumptions": {
+    "regulated_rail_bound_V": 38,
+    "feedback_calculated_upper_bound_V": 37.91919305113751,
+    "LED_drop_lower_bound_V": 0,
+    "resistor_TCR_range_C": [
+      -40,
+      85
+    ],
+    "thermal_pass_ambient_upper_C": 70,
+    "note": "38V is a conservative regulated-DC envelope, not a measured transient bound."
+  },
+  "upper_stress_before": {
+    "rail_V": 38,
+    "LED_drop_V": 0,
+    "R_ohm": 2457.088425,
+    "current_A": 0.015465458879445905,
+    "resistor_power_W": 0.5876874374189444,
+    "rail_power_W": 0.5876874374189444
+  },
+  "upper_stress_after": {
+    "rail_V": 38,
+    "LED_drop_V": 0,
+    "R_ohm": 6710.121,
+    "current_A": 0.005663087148502985,
+    "resistor_power_W": 0.21519731164311343,
+    "rail_power_W": 0.21519731164311343
+  },
+  "after_margin_W_at_70C_or_below": 0.034802688356886574,
+  "at_85C": {
+    "derated_resistor_rating_W": 0.20588235294117646,
+    "minimum_LED_drop_for_38V_corner_pass_V": 0.8315254550311124,
+    "qualification": "Zero-LED-drop bound is not a pass at85C; actual LED forward voltage and local ambient are needed for a full hot-enclosure claim."
+  },
+  "limitations": [
+    "The 2.1V LED drop is a nominal approximation, specified at20mA; actual5mA current differs slightly.",
+    "No optical brightness, hot-enclosure, boost switching transient, recharge, or strobe timing validation is claimed."
+  ],
+  "sources": [
+    {
+      "url": "https://yageogroup.com/content/datasheet/asset/file/yageo-mfr_datasheet",
+      "pages": "2-3",
+      "use": "ordering code, tolerance, TCR, body size,0.25W rating and derating"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/mc33063a.pdf",
+      "pages": "4-5",
+      "use": "feedback threshold1.25V nominal/1.29V full-range maximum and400nA bias bound"
+    },
+    {
+      "url": "https://www.mouser.com/datasheet/2/239/LTL_307G-1143851.pdf",
+      "pages": "3",
+      "use": "manufacturer-authored LTL307G datasheet: approximate2.1V forward drop"
+    }
+  ]
+}

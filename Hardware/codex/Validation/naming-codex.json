@@ -1,0 +1,54 @@
+{
+  "reviewed_design_commit": "269b16274be233a9dccd5cd1ed46373e27c2d259",
+  "coexistence_baseline": "b389f446e0ab9f8125ae93f58c155da8be34f639",
+  "checks": {
+    "9.0-erc": {
+      "errors": 0,
+      "warnings": 0,
+      "excluded": 2,
+      "unconnected": 0
+    },
+    "9.0-board-0": {
+      "errors": 0,
+      "warnings": 34,
+      "excluded": 0,
+      "unconnected": 0
+    },
+    "9.0-board-1": {
+      "errors": 0,
+      "warnings": 16,
+      "excluded": 0,
+      "unconnected": 0
+    },
+    "9.0-board-2": {
+      "errors": 0,
+      "warnings": 0,
+      "excluded": 0,
+      "unconnected": 0
+    },
+    "10.0-erc": {
+      "errors": 0,
+      "warnings": 0,
+      "excluded": 2,
+      "unconnected": 0
+    },
+    "10.0-board-0": {
+      "errors": 0,
+      "warnings": 66,
+      "excluded": 0,
+      "unconnected": 0
+    }
+  },
+  "native_checks_modified_CAD": false,
+  "export_archive_CRC_and_job_member_paths": "PASS",
+  "notes": "Naming-only variant. Original electrical and bench limitations in README.md still apply.",
+  "named_nets_preserved": 63,
+  "gerber_and_drill_geometry_files_preserved": 33,
+  "independent_CAD_and_assembly_review": "PASS: 18 CAD/library files; 3 project settings; 8 BOM/centroid files; geometry, connectivity, MPNs, DNP and placements preserved after naming normalization.",
+  "naming_dependencies_verified": {
+    "hierarchical_sheets": 6,
+    "PCB_sheet_references": 158,
+    "custom_symbol_references": 18,
+    "custom_footprint_references": 49
+  }
+}

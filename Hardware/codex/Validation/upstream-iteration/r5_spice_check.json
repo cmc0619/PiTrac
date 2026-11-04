@@ -1,0 +1,9 @@
+{
+  "nominal_old_current_A": 0.013441036874771807,
+  "nominal_new_current_A": 0.004921791443850264,
+  "nominal_old_power_W": 0.4498470659497488,
+  "nominal_new_power_W": 0.16472341091395215,
+  "upper_old_power_W": 0.5876874374189444,
+  "upper_new_power_W": 0.21519731164311343,
+  "matches_static_calculation": true
+}
