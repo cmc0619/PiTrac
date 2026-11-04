@@ -1,0 +1,26 @@
+{
+  "baseline": "78f1de60fd21398f34d348f19f55e73029bc95f9",
+  "schematic_original_pin_connectivity_preserved": true,
+  "only_component_value_change": "R5 2K49 to 6K8",
+  "led_anode_connections": 10,
+  "boards": [
+    {
+      "file": "IRLED Only.kicad_pcb",
+      "all_part_anchors_drills_outlines_3d_models_unchanged": true,
+      "all_existing_populated_pin_assignments_match_schematic": true,
+      "breakaway_holes_marked_board_only": 0
+    },
+    {
+      "file": "V3 Connector + IRLED.kicad_pcb",
+      "all_part_anchors_drills_outlines_3d_models_unchanged": true,
+      "all_existing_populated_pin_assignments_match_schematic": true,
+      "breakaway_holes_marked_board_only": 72
+    },
+    {
+      "file": "V3 Connector Only.kicad_pcb",
+      "all_part_anchors_drills_outlines_3d_models_unchanged": true,
+      "all_existing_populated_pin_assignments_match_schematic": true,
+      "breakaway_holes_marked_board_only": 0
+    }
+  ]
+}

@@ -239,7 +239,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1397000|927100|f86ba4ac-660b-4c92-81c0-17b93e13417a|6abfd156-5357-4c91-a46e-0f198d946325|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/ccdb7f4b-2227-4b3b-ae8d-d985fe5b737e|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/ccdb7f4b-2227-4b3b-ae8d-d985fe5b737e|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/0bd15bed-199a-4e45-8bce-f6f8039d8937",
+        "MC33063 boost switch emitter is intentionally grounded, per manufacturer boost application circuit."
+      ],
+      [
+        "pin_to_pin|1790700|1143000|0fbe88e2-a3e3-49ab-b675-140cd14c9ad6|f915eef6-f129-4d98-874f-f2d6df09bf90|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607",
+        "MCP1407 pins 6 and 7 are the same internally connected output and must be connected together, per manufacturer pin description."
+      ]
+    ],
     "meta": {
       "version": 0
     },

@@ -4179,7 +4179,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2K49"
+		(property "Value" "6K8"
 			(at 195.58 110.4899 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MFR-25FTE52-2K49"
+		(property "Part Number" "MFR-25FTE52-6K8"
 			(at 193.04 109.22 90)
 			(effects
 				(font

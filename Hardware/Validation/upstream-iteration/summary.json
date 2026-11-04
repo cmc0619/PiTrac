@@ -1,0 +1,49 @@
+{
+  "baseline": "78f1de60fd21398f34d348f19f55e73029bc95f9",
+  "checks": {
+    "erc.json": {
+      "active_errors": 0,
+      "active_warnings": 0,
+      "excluded": 2,
+      "unconnected": 0,
+      "schematic_parity_warnings": 0
+    },
+    "kicad10-erc.json": {
+      "active_errors": 0,
+      "active_warnings": 0,
+      "excluded": 2,
+      "unconnected": 0,
+      "schematic_parity_warnings": 0
+    },
+    "board-0.json": {
+      "active_errors": 0,
+      "active_warnings": 16,
+      "excluded": 0,
+      "unconnected": 0,
+      "schematic_parity_warnings": 18
+    },
+    "board-1.json": {
+      "active_errors": 0,
+      "active_warnings": 16,
+      "excluded": 0,
+      "unconnected": 0,
+      "schematic_parity_warnings": 0
+    },
+    "board-2.json": {
+      "active_errors": 0,
+      "active_warnings": 0,
+      "excluded": 0,
+      "unconnected": 0,
+      "schematic_parity_warnings": 0
+    },
+    "kicad10-board.json": {
+      "active_errors": 0,
+      "active_warnings": 16,
+      "excluded": 0,
+      "unconnected": 0,
+      "schematic_parity_warnings": 50
+    }
+  },
+  "independent_review": "PASS: no material introduced defect; native netlist, track/via, pad, mechanical, DNP and assembly comparisons",
+  "limits": "No bench optical, thermal, solder-yield or populated-enclosure qualification. Residual warnings and unresolved boost current-limit issue are documented in Hardware/README.md."
+}

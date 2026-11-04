@@ -624,7 +624,7 @@
 				)
 			)
 			(symbol "USB1125-GF-B_0_0"
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "V+"
@@ -642,7 +642,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -5.08 0)
 					(length 2.54)
 					(name "D-"
@@ -660,7 +660,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "D+"
@@ -678,7 +678,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -10.16 0)
 					(length 2.54)
 					(name "GND"
@@ -696,7 +696,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -12.7 0)
 					(length 2.54)
 					(name "SH"
@@ -1380,6 +1380,108 @@
 			)
 			(embedded_fonts no)
 		)
+
+		(symbol "power:PWR_FLAG"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(text "Power Input"
 		(exclude_from_sim no)
@@ -4106,5 +4208,47 @@
 				)
 			)
 		)
+	)
+	(no_connect (at 227.33 107.95) (uuid "3962c5b4-25de-4e0a-b1b2-b515d6900711"))
+	(no_connect (at 227.33 110.49) (uuid "1c66dd3e-8c24-4643-9c57-8c4f560e10b5"))
+	(no_connect (at 227.33 113.03) (uuid "741f9333-70dc-4514-81e5-2e5bebcaa478"))
+	(no_connect (at 227.33 115.57) (uuid "2c6028f8-1949-48f4-a3dc-492ef597534e"))
+	(no_connect (at 227.33 128.27) (uuid "a3d32042-37b1-4fa7-b5be-76a17892a837"))
+	(no_connect (at 227.33 130.81) (uuid "03cc98a6-c0d8-4beb-a4b6-06bcfea4013b"))
+	(no_connect (at 227.33 133.35) (uuid "6fb7d347-9535-44f0-b6cb-2a7bd52e6016"))
+	(no_connect (at 227.33 135.89) (uuid "53bfb781-0502-461b-9a38-10823610a9fd"))
+	(no_connect (at 226.06 38.1) (uuid "9de486f1-01bb-4767-8c3d-d9c777878f0c"))
+	(no_connect (at 226.06 40.64) (uuid "2e2631ae-2940-40ed-9d0f-ba2cc9918cd5"))
+	(no_connect (at 226.06 43.18) (uuid "336a99c9-2822-408a-9974-c4ff7f72e800"))
+	(no_connect (at 226.06 45.72) (uuid "2474e434-af74-4203-b97c-f7fb03204de2"))
+	(no_connect (at 226.06 58.42) (uuid "8c9daea0-36ec-4465-a496-0202812a0ae6"))
+	(no_connect (at 226.06 60.96) (uuid "8deec4c8-197a-4f59-8146-858240b8b1ec"))
+	(no_connect (at 226.06 63.5) (uuid "72e3d963-c2fd-4289-b5db-d392bf4147f8"))
+	(no_connect (at 226.06 66.04) (uuid "e8a438c6-5e52-4004-abc7-897bb445303e"))
+	(no_connect (at 120.65 157.48) (uuid "4dc70682-1252-4d60-90b9-e42368db0f61"))
+	(no_connect (at 120.65 160.02) (uuid "6bf83e44-32a2-4055-afcc-66ffd63a5847"))
+	(symbol (lib_id "power:PWR_FLAG") (at 138.43 43.18 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b4218974-c878-42b4-8129-5921ea06564a")
+		(property "Reference" "#FLG01" (at 138.43 40.64 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "PWR_FLAG" (at 138.43 38.1 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances (project "V3 Connector + IRLED" (path "/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/0bd15bed-199a-4e45-8bce-f6f8039d8937" (reference "#FLG01") (unit 1))))
+		(pin "1" (uuid "6abfd156-5357-4c91-a46e-0f198d946325"))
+	)
+	(symbol (lib_id "power:PWR_FLAG") (at 132.08 68.58 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "9fec6dac-551a-49e9-8b57-a09e73e5607b")
+		(property "Reference" "#FLG02" (at 132.08 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "PWR_FLAG" (at 132.08 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances (project "V3 Connector + IRLED" (path "/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/0bd15bed-199a-4e45-8bce-f6f8039d8937" (reference "#FLG02") (unit 1))))
+		(pin "1" (uuid "3c7aaec7-7540-4aa3-87cb-abf89372e52d"))
+	)
+	(symbol (lib_id "power:PWR_FLAG") (at 104.14 116.84 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4d7737c9-c5da-424e-9512-05aa511c0133")
+		(property "Reference" "#FLG03" (at 104.14 114.3 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "PWR_FLAG" (at 104.14 111.76 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances (project "V3 Connector + IRLED" (path "/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/0bd15bed-199a-4e45-8bce-f6f8039d8937" (reference "#FLG03") (unit 1))))
+		(pin "1" (uuid "fa82f1e1-3984-4272-aaab-1e505e821ded"))
+	)
+	(symbol (lib_id "power:PWR_FLAG") (at 233.68 33.02 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "aba1636d-a5de-4401-913d-d5db7b3cf843")
+		(property "Reference" "#FLG04" (at 233.68 30.48 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Value" "PWR_FLAG" (at 233.68 27.94 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances (project "V3 Connector + IRLED" (path "/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/0bd15bed-199a-4e45-8bce-f6f8039d8937" (reference "#FLG04") (unit 1))))
+		(pin "1" (uuid "435eb8ec-d6c6-4e4b-a1dc-f6a5ef640fd8"))
 	)
 )

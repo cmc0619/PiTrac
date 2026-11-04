@@ -590,7 +590,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
+		(symbol "Pi Connector Parts:Q_TN2106"
 			(pin_numbers
 				(hide yes)
 			)
@@ -673,7 +673,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_0_1"
+			(symbol "Q_TN2106_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -840,7 +840,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_1_1"
+			(symbol "Q_TN2106_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1070,7 +1070,7 @@
 				)
 			)
 			(symbol "IRLU024NPBF_0_0"
-				(pin unspecified line
+				(pin input line
 					(at -6.35 -2.54 0)
 					(length 2.54)
 					(name "G"
@@ -1088,7 +1088,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 -1.27 180)
 					(length 2.54)
 					(name "D"
@@ -1106,7 +1106,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 6.35 -3.81 180)
 					(length 2.54)
 					(name "S"
@@ -1197,7 +1197,7 @@
 				)
 			)
 			(symbol "MCP1407-E/P_0_0"
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -2.54 0)
 					(length 2.54)
 					(name "VDD"
@@ -1215,7 +1215,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -5.08 0)
 					(length 2.54)
 					(name "VDD"
@@ -1233,7 +1233,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -2.54 -10.16 0)
 					(length 2.54)
 					(name "INPUT"
@@ -1251,7 +1251,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -17.78 0)
 					(length 2.54)
 					(name "GND"
@@ -1269,7 +1269,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "NC"
@@ -1287,7 +1287,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 -10.16 180)
 					(length 2.54)
 					(name "OUT"
@@ -1305,7 +1305,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 -12.7 180)
 					(length 2.54)
 					(name "OUT"
@@ -1323,7 +1323,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 -17.78 180)
 					(length 2.54)
 					(name "GND"
@@ -1861,16 +1861,7 @@
 		)
 		(uuid "00943e8d-33fd-4290-a944-30ba26daf883")
 	)
-	(wire
-		(pts
-			(xy 50.8 168.91) (xy 71.12 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b78514-3d4a-4c83-a1e1-c2245712fcb5")
-	)
+
 	(wire
 		(pts
 			(xy 157.48 106.68) (xy 161.29 106.68)
@@ -5254,7 +5245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Pi Connector Parts:Q_TN2106")
 		(at 83.82 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5892,4 +5883,5 @@
 			)
 		)
 	)
+	(wire (pts (xy 55.88 168.91) (xy 71.12 168.91)) (stroke (width 0) (type default)) (uuid "06b78514-3d4a-4c83-a1e1-c2245712fcb5"))
 )
