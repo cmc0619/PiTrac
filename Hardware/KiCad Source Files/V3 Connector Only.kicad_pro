@@ -239,16 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|1397000|927100|f86ba4ac-660b-4c92-81c0-17b93e13417a|6abfd156-5357-4c91-a46e-0f198d946325|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/ccdb7f4b-2227-4b3b-ae8d-d985fe5b737e|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/ccdb7f4b-2227-4b3b-ae8d-d985fe5b737e|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/0bd15bed-199a-4e45-8bce-f6f8039d8937",
-        "MC33063 boost switch emitter is intentionally grounded, per manufacturer boost application circuit."
-      ],
-      [
-        "pin_to_pin|1790700|1143000|0fbe88e2-a3e3-49ab-b675-140cd14c9ad6|f915eef6-f129-4d98-874f-f2d6df09bf90|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607|/39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc/432d835a-88ba-42dd-bb70-090557c34607",
-        "MCP1407 pins 6 and 7 are the same internally connected output and must be connected together, per manufacturer pin description."
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -376,33 +367,33 @@
         0,
         2,
         2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
         0,
         2
       ],
       [
         0,
         2,
-        1,
+        0,
         1,
         0,
         0,
         1,
         0,
         2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
         0,
         0,
         2
@@ -509,8 +500,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "V3 Connector + IRLED Files/",
-      "pos_files": "V3 Connector + IRLED Files/",
+      "plot": "V3 Connector Only Files/",
+      "pos_files": "V3 Connector Only Files/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -520,7 +511,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "V3 Connector Only Files\\V3 Connector Only Bill of Materials.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -673,35 +664,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "39826c84-4d4b-44ca-a2d0-3c4c9a9a22bc",
-      "Root"
-    ],
-    [
-      "0bd15bed-199a-4e45-8bce-f6f8039d8937",
-      "Connectors"
-    ],
-    [
-      "ccdb7f4b-2227-4b3b-ae8d-d985fe5b737e",
-      "Power"
-    ],
-    [
-      "432d835a-88ba-42dd-bb70-090557c34607",
-      "CC Sink"
-    ],
-    [
-      "059f4d93-a1e1-4515-8bd9-0c925832e143",
-      "DAC"
-    ],
-    [
-      "44b0b1a6-76b7-46a3-bc9a-28de56594a94",
-      "ADC"
-    ],
-    [
-      "222ea167-69a4-4c2a-962f-7683bbd63ff6",
-      "LED"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }

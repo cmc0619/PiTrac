@@ -1,4 +1,4 @@
-# V3 hardware: upstream-based corrections
+# V3 hardware: Codex variant
 
 This revision starts from PiTracLM/PiTrac `78f1de60fd21398f34d348f19f55e73029bc95f9` and makes three physical corrections. It retains the original architecture and populated parts except for R5's resistance value.
 
@@ -12,15 +12,19 @@ Every existing component position and orientation, mounting hole, drilled pad, v
 
 Project-local library tables and project-specific transistor/LED symbols preserve the actual upstream pin definitions when the project is opened on another computer. Intentional unconnected pins, power sources and breakaway holes are identified explicitly. The connector-only board now has its own project file with the same fabrication rules as the combined board.
 
+This directory contains the separately named `-codex` variant. The existing hardware files elsewhere under `Hardware/` remain the Claude/main variant, unchanged. Open `KiCad Source Files/V3 Connector + IRLED-codex.kicad_pro` for this design. The connector-only and LED-only projects are PCB variants; the combined project contains the complete schematic.
+
 ## Files to use
 
 - `KiCad Source Files/`: native KiCad 9 schematics, project files, boards and local libraries. KiCad 10 can also read/check these files.
-- `Fabrication Files/`: regenerated Gerber and separate plated/nonplated drill ZIPs for all three board variants. Existing archive names containing `IRLED2` are retained.
+- `Fabrication Files/`: regenerated Gerber and separate plated/nonplated drill ZIPs for all three board variants. Export filenames retain `IRLED2` where applicable and append `-codex`. Internal fabrication filenames use the suffixed PCB project names.
 - `Assembly Files/`: regenerated BOMs and centroids. Reference sets and placement coordinates are unchanged; R5 is the only changed ordered part.
-- `Schematic/V3 Connector + IRLED2 Schematic.pdf`: regenerated complete schematic.
+- `Schematic/V3 Connector + IRLED2 Schematic-codex.pdf`: regenerated complete schematic.
 - `Validation/upstream-iteration/`: verification summary and focused resistor calculation/SPICE evidence.
 
 U4 and C13 remain **do not populate**, as in upstream. They are omitted from the assembly files. With U4 absent, R11 already pulls the MCP4801 shutdown pin high; no DAC modification is needed.
+
+Custom libraries use the `Pi Connector Parts-codex` namespace. The corrected USB4085 and VSMA1085400 footprints also have `-codex` item names. Manufacturer part numbers, schematic values and reference designators are unchanged by naming.
 
 ## Verification
 
@@ -32,7 +36,7 @@ KiCad 10.0.6 independently checks the combined board and full schematic with the
 - Combined-board schematic parity reports 18 unused USB signal pins without copper pads. These dedicated power-only footprints retain those unused contacts as unplated holes, as upstream.
 - KiCad 10 additionally reports 32 legacy empty-versus-`~` Datasheet-field differences. These do not change components or connections.
 
-Independent checks compare the original and final netlists, native pad assignments, tracks/vias, holes, outlines, component placements, DNP flags and assembly data. Original pin connectivity is unchanged apart from the ten intended center-anode additions. A separate reviewer found no material introduced defect.
+Independent checks compare the original and final netlists, native pad assignments, tracks/vias, holes, outlines, component placements, DNP flags and assembly data. Original pin connectivity is unchanged apart from the ten intended center-anode additions. A separate reviewer found no material introduced defect in the reviewed design at `269b162`. `Validation/naming-codex.json` records the subsequent naming-only checks. The evidence in `Validation/upstream-iteration/` retains its original pre-rename filenames and provenance.
 
 The focused ngspice calculation models only the indicator branch, using a nominal 2.1 V LED drop. Its results agree with resistor-power arithmetic. A conservative 38 V/zero-LED-drop bound including resistor tolerance and temperature coefficient gives approximately 0.215 W for the replacement, below its 0.25 W rating through 70 C local ambient. Higher-temperature operation requires the manufacturer's derating curve and actual conditions.
 

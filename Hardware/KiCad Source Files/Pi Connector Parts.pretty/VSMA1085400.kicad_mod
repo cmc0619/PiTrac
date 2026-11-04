@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1e52c569-93fe-43fb-a7d5-933cd2d7ed63")
+		(uuid "87f78b5d-0f19-4884-8910-98e28a4faa2f")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0bc321e9-3f11-40af-8ac4-0179729367da")
+		(uuid "04b67abc-ec8d-44c8-b3e4-3dfa3fe63d6b")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb0b0d0e-fef3-4649-bd53-08335b2907f7")
+		(uuid "990b6196-34d2-4996-b917-41d6f0268435")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2434a0c8-1364-4bf5-9398-2c22775e3f60")
+		(uuid "5b4e9124-f61c-4675-85b4-9446e8236c67")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 2 2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2959a1d4-9f51-4d29-b176-265f79b877d0")
+		(uuid "66c8bac7-154c-4c87-a2d1-7a4961427ae4")
 		(effects
 			(font
 				(size 2 2)
@@ -73,7 +73,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "378e8872-e355-4ab6-a810-ff0a3beda127")
+		(uuid "25536719-ff3e-49d3-a452-1f5cd4356941")
 		(effects
 			(font
 				(size 1 1)
@@ -86,28 +86,21 @@
 		(size 2.8 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "0b5ae54f-62e6-4e57-8920-3372976bcafc")
+		(uuid "ca9c28b2-6cb4-418c-ba9e-ff6fb4882328")
 	)
 	(pad "2" smd roundrect
 		(at 0 -1.1)
 		(size 2.8 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "f88f94cb-a1d1-4cb9-bfc8-540324b04016")
-	)
-	(pad "3" smd rect
-		(at 0 -0.65)
-		(size 2.8 0.4)
-		(layers "F.Cu")
-		(thermal_bridge_angle 45)
-		(uuid "ad6509cd-34fb-471e-99dd-7cb7511962ea")
+		(uuid "1d2cfc1b-fb23-4b0a-a2fc-6ded514c4404")
 	)
 	(pad "3" smd roundrect
 		(at 0 0)
 		(size 2.8 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "33b436aa-3d42-432f-a643-bd7148c09ef8")
+		(uuid "c3a6221d-6fef-4e94-a259-a920f6449717")
 	)
 	(embedded_fonts no)
 )
